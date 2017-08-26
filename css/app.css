@@ -1,0 +1,33 @@
+body{
+	margin: auto;
+	text-align: center;
+}
+nav{
+	position: fixed;
+	z-index: 1;
+}
+.parallax{
+	padding-top: 60px;
+	/*padding-bottom: 50px;*/
+	background-position: bottom left, center center;
+	background-size: auto, cover;
+	background-attachment: scroll, fixed;
+}
+.context{
+	position: absolute;
+	width: 100%;
+	bottom: 25%;
+	text-align: center;
+}
+
+footer{
+	background-color: grey;
+	padding-top: 10px;
+	/*padding-bottom: 10px;*/
+}
+.copyright{
+	background-color: yellow;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
