@@ -9,9 +9,9 @@ nav{
 .parallax{
 	padding-top: 60px;
 	/*padding-bottom: 50px;*/
-	background-position: bottom left, center center;
+	/*background-position: bottom left, center center;*/
 	background-size: auto, cover;
-	background-attachment: scroll, fixed;
+	/*background-attachment: scroll, fixed;*/
 }
 .context{
 	position: absolute;
