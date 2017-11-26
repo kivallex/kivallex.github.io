@@ -153,6 +153,12 @@ footer{
 	background-color: grey;
 	padding-top: 10px;
 }
+.copyright{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-size: 17px;
+	text-decoration: underline;
+}
 
 /*mobile view*/
 @media (min-width: 320px) and (max-width: 768px){
