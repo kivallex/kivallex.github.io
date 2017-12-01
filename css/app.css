@@ -55,6 +55,9 @@ nav.nav-wrapper ul{
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
 	color: rgb(255,215,0);
 }
+.list{
+	font-family: 'Patua One', cursive;
+}
 .context{
 	position: absolute;
 	width: 100%;
