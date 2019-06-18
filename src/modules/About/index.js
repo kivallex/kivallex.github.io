@@ -43,9 +43,9 @@ const About = () => {
             </a>
             <a
               className="hover"
-              href="/mailto:kenneth.y.suh@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer">
+              href="mailto:kenneth.y.suh@gmail.com"
+              target="_top"
+            >
               <Email className={styles.icon} />
             </a>
             <a
