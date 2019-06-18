@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "rm -rf static && mv -f build/* ./ && rm -rf build"
   },
   "eslintConfig": {
     "extends": "react-app"
