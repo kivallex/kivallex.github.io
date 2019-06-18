@@ -12,6 +12,10 @@ class App extends React.Component {
   componentDidMount() {
     Glitch({ parent: 'canvas-wrapper' });
     window.draw = window.start;
+
+    setTimeout(() => {
+      window.draw = window.reset;
+    }, defs.GLITCH_DURATION);
   }
 
   componentWillUnmount() {
