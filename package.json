@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "rm -rf static && mv -f build/* ./ && rm -rf build"
+    "deploy": "rm -rf static && mv -f build/* ./ && rm -rf build && git add -A && git commit -m \"build\" && git push"
   },
   "eslintConfig": {
     "extends": "react-app"
